@@ -4,17 +4,17 @@
 Javascript to create fight between two <img>  sprites 
 
 
-create your players: 
+<h2>create your players: </h2>
 
  ```var p = new Player(imageElement, Hitpoints, Damage, Defense, ComputerControlled)```
 
   One player will be controlled by the computer, and the other will be controlled by you. 
     When creating player object be sure to make sure one is computer controlled and one is human controlled
     example: 
-           ```
-           var m = new Player(mario, 200,100,100,true); //computer controlled - true == computer controlled
-           var j =  new Player(jordan, 100,100,100,false); //human controlled - false == human controlled
-           ```
+           
+           ```var m = new Player(mario, 200,100,100,true); //computer controlled - true == computer controlled
+           var j =  new Player(jordan, 100,100,100,false); //human controlled - false == human controlled```
+           
           
   You now have 100 points to divide between 3 different categories. Hitpoints, Damage, and Defense
     Hitpoints is essentially the amount of health the player will have. 
@@ -45,8 +45,7 @@ If you don't see these green boxes take another look at the usage example and se
   
   <h3>Space bar:</h3> Execute List of commands 
   
-  
-  
+<h3>Then:</h3>
   After entering a list of commands and pressing spacebar you should notice the health boxes of the characters getting narrower as they lose hitpoints. Eventually when they will dissapear and the character will go almost transparent with a red background denoting the character being eliminated. 
   
 Take a look at the commented Usage Example for more guidance 
