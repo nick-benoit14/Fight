@@ -13,7 +13,7 @@ create your players:
     example: 
           var m = new Player(mario, 200,100,100,true); //computer controlled - true == computer controlled
           var j =  new Player(jordan, 100,100,100,false); //human controlled - false == human controlled
-
+          
     You now have 100 points to divide between 3 different categories. Hitpoints, Damage, and Defense
       Hitpoints is essentially the amount of health the player will have. 
       Damage is proportional to how much damage will be dealt with a direct hit
