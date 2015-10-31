@@ -21,10 +21,10 @@ Javascript to create fight between two <img>  sprites
     Damage is proportional to how much damage will be dealt with a direct hit
     Defense comes into play when you use the block command, it will make the enemy's attacks less powerful
     example: 
-       ```
+       
        var p = new Player(imageElement, Hitpoints, Damage, Defense, ComputerControlled);`
         //Make sure you type the numbers in the correct order
-        ```
+        
           
 
 If you did everything correctly, when you load your page you should see a green health box around both players that is of width proportional to their hitpoints. If you have more hitpoints you will have a wider health box. 
