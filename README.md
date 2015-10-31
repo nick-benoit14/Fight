@@ -11,16 +11,16 @@ create your players:
   One player will be controlled by the computer, and the other will be controlled by you. 
     When creating player object be sure to make sure one is computer controlled and one is human controlled
     example: 
-          var m = new Player(mario, 200,100,100,true); //computer controlled - true == computer controlled
-          var j =  new Player(jordan, 100,100,100,false); //human controlled - false == human controlled
+           `var m = new Player(mario, 200,100,100,true); //computer controlled - true == computer controlled`
+           `var j =  new Player(jordan, 100,100,100,false); //human controlled - false == human controlled`
           
-    You now have 100 points to divide between 3 different categories. Hitpoints, Damage, and Defense
-      Hitpoints is essentially the amount of health the player will have. 
-      Damage is proportional to how much damage will be dealt with a direct hit
-      Defense comes into play when you use the block command, it will make the enemy's attacks less powerful
-      example: 
-         var p = new Player(imageElement, Hitpoints, Damage, Defense, ComputerControlled);
-          Make sure you type the numbers in the correct order 
+  You now have 100 points to divide between 3 different categories. Hitpoints, Damage, and Defense
+    Hitpoints is essentially the amount of health the player will have. 
+    Damage is proportional to how much damage will be dealt with a direct hit
+    Defense comes into play when you use the block command, it will make the enemy's attacks less powerful
+    example: 
+       `var p = new Player(imageElement, Hitpoints, Damage, Defense, ComputerControlled);`
+        Make sure you type the numbers in the correct order 
           
 
 If you did everything correctly, when you load your page you should see a green health box around both players that is of width proportional to their hitpoints. If you have more hitpoints you will have a wider health box. 
