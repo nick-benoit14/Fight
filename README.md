@@ -11,9 +11,9 @@ create your players:
   One player will be controlled by the computer, and the other will be controlled by you. 
     When creating player object be sure to make sure one is computer controlled and one is human controlled
     example: 
-           ````
-           var m = new Player(mario, 200,100,100,true); //computer controlled - true == computer controlled`
-           var j =  new Player(jordan, 100,100,100,false); //human controlled - false == human controlled`
+           ```
+           var m = new Player(mario, 200,100,100,true); //computer controlled - true == computer controlled
+           var j =  new Player(jordan, 100,100,100,false); //human controlled - false == human controlled
            ```
           
   You now have 100 points to divide between 3 different categories. Hitpoints, Damage, and Defense
