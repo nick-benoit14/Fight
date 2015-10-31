@@ -1,0 +1,32 @@
+<!Doctype>
+<html>
+  <head>
+    <script src="Fight.js"></script>
+
+  </head>
+  <body>
+
+    <img src = "retro_mario.png" id = "mario"> <!-- Add two sprites to your HTML -->
+    <img src ="micheal.png" id="jordan"> <!-- make sure they both have an ID attribute so we can reference them -->
+
+    <script> //Add Script at the end of <body> so the images are loaded before we start manipulating them
+    var mario = document.getElementById('mario'); //get references to both images by their ID
+    var jordan = document.getElementById('jordan');
+
+
+      //var p = new Player(imageElement, Hitpoints, Damage, Defense, ComputerControlled) Parameters follow this format
+    var p = new Player(mario, 50,25,25,false); //Create Two Player objects
+    var q = new Player(jordan, 33,33,33,true);
+
+    mario.style.left = 0; //position elemets so they are next to each other (in px)
+    mario.style.top = 0;
+    jordan.style.left = 270;
+    jordan.style.top = 0;
+
+
+    var fight = new Fight(p,q); //Create new Fight object, parameters are two Player objects we just created
+    document.body.addEventListener("keydown", function(eval){fight.getKeypress(eval)}); //Add turn listener to body to accept keypresses
+
+    </script>
+  </body>
+</html>
